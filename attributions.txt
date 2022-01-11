@@ -25,5 +25,6 @@ references -
 
 6 - https://www.tfoa.eu/en/blogs/blog/the-fender-stratocaster/
 
+7 - another source
 
 
