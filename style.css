@@ -1,0 +1,129 @@
+body {
+  padding: 20px 50px;
+  font-family: sans-serif;
+  max-width: 1000px;
+  margin:auto;
+  background-color: #f0e9cc;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: Tahoma;
+  margin: auto;
+}
+
+h1 > .small {
+  font-size: 30px;
+}
+
+h1.large {
+  font-size: 100px;
+  color: darkblue;
+  transform: rotateX(-10deg);
+  -webkit-transform: rotate(-10deg);
+  text-shadow: 5px 5px #999
+}
+
+.left {
+  float:left;
+  max-height: 220px;
+  margin: 0px 50px 20px 30px;
+}
+
+.right {
+  float: right;
+  max-height: 220px;
+  margin: 0px 30px 20px 50px;
+}
+
+.center {
+  max-width:500px;
+    display:block;
+    margin:auto;
+}
+
+img {
+  max-height: 200px
+}
+
+a {
+  color: red;
+  padding-left:10px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  background-color: orange;
+  transition-duration: .25s;
+  color: white;
+  border: 1px solid rgb(170, 130, 119);
+  border-radius: 5px;
+}
+
+a.attribution {
+  font: 12px verdana;
+  color: #333;
+  padding: 0px;
+  font-style: italic;
+}
+
+div.attribution {
+  padding: 0px;
+  font: 12px verdana;
+  color: #333;
+  font-style: italic;
+}
+
+li {
+  margin: 7px 0px;
+}
+
+div.img-container {
+  min-height: 275px;
+}
+
+clear {
+  clear:both;
+}
+
+sup {
+    margin: 0 0 0 3px;
+}
+
+sup a {
+  background-color: transparent;
+  font-size: 12px;
+  margin: 0px;
+  padding:0px;
+}
+
+sup a:hover {
+  background-color: transparent;
+  border:none;
+  color: blue;
+  padding: 3px;
+}
+
+#references {
+  border-top: 1px solid #666;
+  margin-top: 50px;
+}
+
+#references a:hover {
+  background-color: #666;
+  color: white;
+}
+
+#references * {
+  color:#666;
+}
+
+#marnie-link {
+  color: #399;
+}

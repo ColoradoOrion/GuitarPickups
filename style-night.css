@@ -1,0 +1,137 @@
+body {
+  padding: 20px 50px;
+  font-family: Arial;
+  max-width: 1000px;
+  margin-left: 20px;
+  background-color: #111;
+  color:#999;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: Impact;
+  margin: auto;
+  text-decoration: underline;
+
+}
+
+h1 > .small {
+  font-size: 30px;
+}
+
+h1.large {
+  font-size: 100px;
+  color: purple;
+  text-shadow: 5px 5px #999;
+  text-decoration: none;
+}
+
+h2 {
+  font-style: italic;
+  font-size: 40px;
+}
+
+.left {
+  float:left;
+  max-height: 220px;
+  margin: 0px 50px 20px 30px;
+  border-top: 1px solid blue;
+  border-left: 1px solid blue;
+  padding: 20px 10px 10px 20px;
+  background-color: #444;
+  border-radius: 10px;
+  box-shadow: 5px 5px #222;
+}
+
+.right {
+  float: right;
+  max-height: 220px;
+  margin: 0px 30px 20px 50px;
+  border-top: 1px solid blue;
+  border-right: 1px solid blue;
+  padding: 20px 20px 10px 10px;
+  background-color:#444;
+  border-radius: 10px;
+  box-shadow: -5px 5px #222;
+}
+
+.center {
+  max-width:500px;
+    display:block;
+    margin:auto;
+}
+
+img {
+  max-height: 200px;
+}
+
+a {
+  color: red;
+  padding-left:10px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+a:visited {
+  color: #bb22bb;
+}
+
+a:hover {
+  transition-duration: .3s;
+  color: #c9c;
+  border-left: 15px solid purple;
+}
+
+a.attribution {
+  font: 12px verdana;
+  color: #999;
+  padding: 0px;
+  font-style: italic;
+}
+
+div.attribution {
+  padding: 0px;
+  font: 12px verdana;
+  color: #999;
+  font-style: italic;
+}
+
+li {
+  margin: 7px 0px;
+}
+
+div.img-container {
+  min-height: 275px;
+}
+
+clear {
+  clear:both;
+}
+
+#references {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background-color: #ccc;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+#references a:hover {
+  color: black;
+  border-left: 10px solid #999;
+  border-bottom: 1px solid #999;
+  background-color: #ddd;
+}
+
+#references * {
+  font-style: normal;
+  color:#666;
+  font-family: Helvetica;
+}
+
+#references h2 {
+    letter-spacing: 20px;
+    font-size: 30px;
+}
+
